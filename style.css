@@ -1,0 +1,26 @@
+#window{
+    width: 300px;
+    height: 75px;
+    border: 2px solid black;
+}
+.nums, .operators {
+width: 45px;
+height: 45px;
+display: inline-grid;
+border: 1px solid black;
+font-size: xx-large;
+font-weight: bold;
+text-align: center;
+padding: auto;
+margin: 5px;
+
+}
+
+#clear{
+    width: 90px;
+
+}
+
+#calc{
+    width: 300px;
+}
