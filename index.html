@@ -9,24 +9,28 @@
 </head>
 <body>
     <div id="calc">
-    <input type="text" id="window"></input>
-    <button class="key num" id="0">0</button>
-    <button class="key num" id="1">1</button>
-    <button class="key num" id="2">2</button>
-    <button class="key num" id="3">3</button>
-    <button class="key num" id="4">4</button>
-    <button class="key num" id="5">5</button>
-    <button class="key num" id="6">6</button>
-    <button class="key num" id="7">7</button>
-    <button class="key num" id="8">8</button>
-    <button class="key num" id="9">9</button>
-    <button class="key num" id=".">.</button>
-    <button class="key operator" id="+">+</button>
-    <button class="key operator" id="-">-</button>
-    <button class="key operator" id="*">*</button>
-    <button class="key operator" id="/">/</button>
-    <button class="key operator" id="=">=</button>
-    <button class="key operator" id="clear">Clear</button>
+    <div id="working-window">
+        <div data-hist id="hist">123+</div>
+        <div data-current id="current">426</div>
+    </div>
+    <button id="del" class="key operator" data-del>DEL</button>
+    <button class="key num" data-number id="1">1</button>
+    <button class="key num" data-number id="2">2</button>
+    <button class="key num" data-number id="3">3</button>
+    <button class="key operator" data-operator id="*">*</button>
+    <button class="key num" data-number id="4">4</button>
+    <button class="key num" data-number id="5">5</button>
+    <button class="key num" data-number id="6">6</button>
+    <button class="key operator" data-operator id="/">/</button>
+    <button class="key num" data-number id="7">7</button>
+    <button class="key num" data-number id="8">8</button>
+    <button class="key num" data-number id="9">9</button>
+    <button class="key operator" data-operator id="+">+</button>
+    <button class="key operator" data-operator id="-">-</button>
+    <button class="key num" data-number id=".">.</button>
+    <button class="key num" data-number id="0">0</button>
+    <button class="key operator two" data-equals id="=">=</button>
+    <button class="key operator two" data-clear id="clear">Clear</button>
     </div>
     <script src="app.js"></script>
 </body>
